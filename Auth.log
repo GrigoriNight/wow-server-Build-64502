@@ -1,0 +1,42 @@
+AzerothCore rev. 5a9cc7e3ac3e 2025-11-20 23:48:09 +0000 (master branch) (Win64, Release, Static) (authserver)
+<Ctrl-C> to stop.
+
+   █████╗ ███████╗███████╗██████╗  ██████╗ ████████╗██╗  ██╗
+  ██╔══██╗╚══███╔╝██╔════╝██╔══██╗██╔═══██╗╚══██╔══╝██║  ██║
+  ███████║  ███╔╝ █████╗  ██████╔╝██║   ██║   ██║   ███████║
+  ██╔══██║ ███╔╝  ██╔══╝  ██╔══██╗██║   ██║   ██║   ██╔══██║
+  ██║  ██║███████╗███████╗██║  ██║╚██████╔╝   ██║   ██║  ██║
+  ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚═╝  ╚═╝
+                                 ██████╗ ██████╗ ██████╗ ███████╗
+                                ██╔════╝██╔═══██╗██╔══██╗██╔════╝
+                                ██║     ██║   ██║██████╔╝█████╗
+                                ██║     ██║   ██║██╔══██╗██╔══╝
+                                ╚██████╗╚██████╔╝██║  ██║███████╗
+                                 ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝
+
+     AzerothCore 3.3.5a  -  www.azerothcore.org
+
+> Using configuration file       configs/authserver.conf
+> Using SSL version:             OpenSSL 3.6.0 1 Oct 2025 (library: OpenSSL 3.6.0 1 Oct 2025)
+> Using Boost version:           1.89.0
+ 
+Opening DatabasePool 'Auth'. Asynchronous connections: 1, synchronous connections: 1.
+MySQL client library: 8.4.7
+MySQL server ver: 8.4.7 
+Connected to MySQL database at 127.0.0.1
+MySQL client library: 8.4.7
+MySQL server ver: 8.4.7 
+Connected to MySQL database at 127.0.0.1
+DatabasePool 'Auth' opened successfully. 2 total connections running.
+ 
+Updating Auth database...
+>> Auth database is up-to-date! Containing 8 new and 1 archived updates.
+ 
+Started auth database connection pool.
+Loading IP Location Database...
+ 
+Added realm "AzerothCore" at 127.0.0.1:8085.
+Halting process...
+Closing down DatabasePool 'Auth'. Waiting for 0 queries to finish...
+Asynchronous connections on DatabasePool 'Auth' terminated. Proceeding with synchronous connections.
+All connections on DatabasePool 'Auth' closed.
