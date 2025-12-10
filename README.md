@@ -1,1 +1,1 @@
-im just testing hot to push files to github
+im just testing how to push files to github
